@@ -32,3 +32,7 @@ git push origin newBranchName
 ** 
 git remote -v 查看当前仓库的地址
 git remote set-url origin + 地址  与远程仓库连接
+
+** 
+* 更新远程分支到本地
+git remote update origin --prune
